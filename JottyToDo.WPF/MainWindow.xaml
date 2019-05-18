@@ -1,0 +1,15 @@
+﻿<Window x:Class="JottyToDo.WPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:JottyToDo.WPF"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="button" Content="Что надо сделать" FontSize="30" HorizontalAlignment="Center" Margin="0,53,0,0" VerticalAlignment="Top" Width="772" Height="69" Click="NeedToDo_Click"/>
+        <Button x:Name="button1" Content="Что делается" FontSize="30" HorizontalAlignment="Center" Margin="10,172,10,0" VerticalAlignment="Top" Width="772" Height="69" Click="Doing_Click"/>
+        <Button x:Name="button2" Content="Что сделано" FontSize="30" HorizontalAlignment="Center" Margin="0,291,0,0" VerticalAlignment="Top" Width="772" Height="69" Click="Done_Click"/>
+
+    </Grid>
+</Window>
